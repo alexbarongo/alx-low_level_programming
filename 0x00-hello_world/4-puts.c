@@ -1,9 +1,12 @@
 #include <stdio.h>
-
-void int main(void)
+/**
+* main - prints a message
+*/
+void main(void)
 {
 char str[] = "\"Programming is like building a multilingual puzzle";
 
 puts(str);
-return (0);
+return;
 }
+
