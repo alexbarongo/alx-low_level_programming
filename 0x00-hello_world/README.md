@@ -4,6 +4,7 @@
 
 #### Read or watch:
 
+````
     *Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
     *Dennis Ritchie
     *“C” Programming Language: Brian Kernighan
@@ -14,11 +15,11 @@
     *Betty Coding Style
     *Hash-bang under the hood (Look at only after you finish consuming the other resources)
     *Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
-
+````
 #### man or help:
-
+````
     *gcc
     *printf (3)
     *puts
     *putchar
-
+````
