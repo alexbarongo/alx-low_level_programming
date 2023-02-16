@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-/*
-  * program that prints out a message
-  * using 'puts'
-  */
-
-int main(void)
+void int main(void)
 {
 char str[] = "\"Programming is like building a multilingual puzzle";
 
