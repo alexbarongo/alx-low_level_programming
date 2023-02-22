@@ -18,7 +18,7 @@ h = a % 10;
 mm = b / 10;
 m = b % 10;
 
-_putchar(hh +'0');
+_putchar(hh + '0');
 _putchar(h + '0');
 _putchar(c);
 _putchar(mm + '0');
