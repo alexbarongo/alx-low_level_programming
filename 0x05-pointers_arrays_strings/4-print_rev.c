@@ -5,15 +5,15 @@
 */
 
 void print_rev(char *s)
-{ int leng, indx;
-  
-leng = 0;
-while
-(s[indx++])
 {
-leng++;
+int len = 0, indx;
+
+while (s[indx++])
+{
+len++;
 }
-for (indx = leng - 1; indx >= 0; indx--)
+for
+(indx = len - 1; indx >= 0; indx--)
 {
 _putchar(s[indx]);
 }
