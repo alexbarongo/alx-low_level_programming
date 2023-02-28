@@ -8,9 +8,15 @@
 
 void puts2(char *str)
 {
-while(*str)
+while  
+(*str)
 {
-_putchar(*str++);
-_putchar('\n');
+if
+((*str % 2) == 0)
+{
+_putchar(*str);
 }
+str++;
+}
+_putchar('\n');
 }
