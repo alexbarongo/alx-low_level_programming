@@ -25,6 +25,7 @@ else
 i = (length + 1) / 2;
 }
 for (index = i; index <= length - 1; index++)
+{
 _putchar(str[index]);
 }
 _putchar('\n');
