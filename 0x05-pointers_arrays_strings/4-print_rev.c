@@ -3,19 +3,18 @@
 * print_rev -function that prints a string, in reverse, followed by a new line.
 * @s: pointer parameter
 */
-
-void print_rev(char *s)
+void rev_string(char *s)
 {
-int len = 0, indx;
+int len = 0, index = 0;
+char tmp;
 
-while (s[indx++])
-{
+while (s[index++])
 len++;
-}
-for
-(indx = len - 1; indx >= 0; indx--)
+
+for (index = len - 1; index >= len / 2; index--)
 {
-_putchar(s[indx]);
+tmp = s[index];
+s[index] = s[len - index - 1];
+s[len - index - 1] = tmp;
 }
-_putchar('\n');
 }
