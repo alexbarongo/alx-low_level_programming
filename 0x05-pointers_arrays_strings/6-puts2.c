@@ -8,7 +8,7 @@
 
 void puts2(char *str)
 {
-while  
+while
 (*str)
 {
 if
