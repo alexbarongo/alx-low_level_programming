@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -18,7 +19,7 @@ while (dest[i++])
 {
 j++;
 }
-while (src[i++])
+for (i = 0; src[i]; i++)
 {
 dest[j++] = src[i];
 }
