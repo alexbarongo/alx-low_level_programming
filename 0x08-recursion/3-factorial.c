@@ -10,14 +10,19 @@
 int factorial(int n)
 {
 int i;
-if (n <= 0)
+if (n < 0)
+{
+i = -1;
+return (i);
+}
+else if (n <= 1 && n >= 0)
 {
 i = 1;
 return (i);
 }
 else
 {
-i = n * factorial(n -1);
+i = n * factorial(n - 1);
 return (i);
 }
 }
