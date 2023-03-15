@@ -32,6 +32,10 @@ m++;
 }
 
 arr = malloc(sizeof(char) * m);
+if (arr == NULL)
+{
+return (NULL);
+}
 
 for (i = 0; s1[i]; i++)
 {
