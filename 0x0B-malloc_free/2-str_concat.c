@@ -31,7 +31,7 @@ for (i = 0; s1[i] || s2[i]; i++)
 m++;
 }
 
-arr = malloc(sizeof(char) + m);
+arr = malloc(sizeof(char) * m);
 
 for (i = 0; s1[i]; i++)
 {
