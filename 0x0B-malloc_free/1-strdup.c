@@ -23,7 +23,7 @@ for (i = 0; str[i]; i++)
 j++;
 }
 
-arr = malloc(sizeof(char) * j++);
+arr = malloc(sizeof(char) * j);
 if (arr == NULL)
 {
 return (NULL);
