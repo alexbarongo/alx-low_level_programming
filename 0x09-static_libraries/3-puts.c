@@ -4,5 +4,11 @@
 
 void _puts(char *s)
 {
-  return (0);
+
+while
+(*s)
+{
+_putchar(*s++);
+}
+_putchar('\n');
 }
