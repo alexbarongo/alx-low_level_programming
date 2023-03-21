@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-#define _FINE_
+/**
+* main - a program that prints the name of the file it was compiled from,
+*        followed by a new line.
+*Return: always 0
+*/
 
 int main()
 {
-char file;
 
-file = _FINE_;
-printf("%s\n", file);
+printf("%s\n", _FILE_);
 return (0);
 }
