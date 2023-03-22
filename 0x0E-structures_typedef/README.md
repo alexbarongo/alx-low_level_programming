@@ -1,5 +1,6 @@
 # 0x0E. C - Structures, typedef
 
+
 ## Resources
 ### Read or watch:
 
