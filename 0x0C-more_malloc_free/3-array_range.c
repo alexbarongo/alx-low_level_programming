@@ -1,18 +1,31 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 
 /**
- * malloc_checked - Allocates memory using malloc.
- * @b: The number of bytes to be allocated.
+ * array_range - Creates an array of integers ordered
+ *               from min to max, inclusive.
+ * @min: The first value of the array.
+ * @max: The last value of the array.
  *
- * Return: A pointer to the allocated memory.
+ * Return: If min > max or the function fails - NULL.
+ *         Otherwise - a pointer to the newly created array.
  */
-void *malloc_checked(unsigned int b)
+int *array_range(int min, int max)
 {
-	void *mem = malloc(b);
+	int *array, index, size;
 
-	if (mem == NULL)
-		exit(98);
+	if (min > max)
+		return (NULL);
 
-	return (mem);
+	size = max - min + 1;
+
+	array = malloc(sizeof(int) * size);
+
+	if (array == NULL)
+		return (NULL);
+
+	for (index = 0; index < size; index++)
+		array[index] = min++;
+
+	return (array);
 }
